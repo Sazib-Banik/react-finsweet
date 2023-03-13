@@ -1,0 +1,50 @@
+#header_part {
+  background: #232536;
+  padding: 20px 0;
+}
+#header_part .navbar-toggler i {
+  color: #6d6e76;
+}
+.menu .nav-link {
+  margin-left: 35px;
+  transition: 0.3s;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: "Sen", sans-serif;
+  font-weight: 400;
+}
+.menu .nav-link:hover {
+  color: #ffd050;
+}
+.menu .top-btn {
+  display: inline-block;
+  background: #ffffff;
+  padding: 8px 30px !important;
+  color: #232536;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 35px;
+  border: none;
+}
+.menu .top-btn {
+  color: #232536;
+}
+.menu .top-btn:hover {
+  background: #ffd050;
+  color: #232536;
+}
+.menu .nav-link.active {
+  color: #ffd050;
+}
+.menu .top-btn.active {
+  color: #232536;
+}
+@media (max-width: 991px) {
+  .menu .nav-link {
+    margin-left: 0px;
+  }
+  .menu .top-btn {
+    margin-left: 0px;
+  }
+}

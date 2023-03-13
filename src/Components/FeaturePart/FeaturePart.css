@@ -1,0 +1,59 @@
+#feature_part {
+  padding: 60px 0;
+}
+.feature_part_right h2,
+.feature_part_left h2 {
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+.feature_post_box {
+  border: 1px solid #f0f0f1;
+  padding: 20px;
+}
+.feature_post_box .sm_text {
+  margin: 20px 0;
+}
+.feature_post_box p {
+  margin: 20px 0;
+  color: #6d6e76;
+}
+.feature_part_right {
+  padding: 20px;
+  padding-top: 0;
+}
+.view_btn {
+  float: right;
+  color: #592ea9;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #feature_part {
+    padding-top: 70px;
+  }
+
+  .feature_part_right {
+    margin-top: 35px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #feature_part {
+    padding-top: 80px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .feature_part_right {
+    padding: 20px 0px;
+    padding-top: 0;
+    margin-top: 30px;
+  }
+
+  .feature_part_right h2,
+  .feature_part_left h2 {
+    font-size: 25px;
+  }
+}

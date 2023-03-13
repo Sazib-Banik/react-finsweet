@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "heading": "Business",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "img": "https://i.ibb.co/Lkf6Tmb/catagory-1.png"
+  },
+  {
+    "id": 2,
+    "heading": "Startup",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "img": "https://i.ibb.co/L5qnSrZ/catagory-2.png"
+  },
+  {
+    "id": 3,
+    "heading": "Economy",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "img": "https://i.ibb.co/G91Dpmb/catagory-3.png"
+  },
+  {
+    "id": 4,
+    "heading": "Technology",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "img": "https://i.ibb.co/17zRvRr/catagory-4.png"
+  }
+]

@@ -1,0 +1,104 @@
+#contact_part {
+  padding: 120px 0;
+}
+.contact_content {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.top_head {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  margin-bottom: 15px;
+}
+.contact_content h1 {
+  margin-bottom: 15px;
+}
+.contact_us_details {
+  background-color: #232536;
+  padding: 80px 50px;
+  margin-bottom: 50px;
+}
+.contact_details_heading {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.6;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+.working_hours_part {
+  position: relative;
+}
+.working_hours_part::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 40px;
+  background: #6d6e76;
+}
+.working_hours_part h5 {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.working_hours_part p {
+  color: #ffffff;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.contact_form input,
+.contact_form select,
+.contact_form textarea {
+  font-size: 18px;
+  padding: 15px 20px;
+}
+.contact_form input:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+.contact_form select:focus,
+.contact_form textarea:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.category_body_content,
+.privacy_body_content {
+  padding: 100px 0;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .working_hours_part p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .working_hours_part p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .contact_us_part {
+    padding-top: 35px;
+  }
+
+  .contact_us_part::after {
+    top: 70px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .contact_us_part {
+    padding-top: 35px;
+  }
+
+  .contact_us_part::after {
+    top: 70px;
+  }
+}

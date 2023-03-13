@@ -1,0 +1,20 @@
+#catagory_part {
+  padding: 60px 0;
+}
+.heading {
+  margin-bottom: 40px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    
+}

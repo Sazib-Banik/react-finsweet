@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Floyd Miles",
+    "desig": "Content Writer @Company",
+    "img": "https://i.ibb.co/rFN2cgJ/author-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Dianne Russell",
+    "desig": "Content Writer @Company",
+    "img": "https://i.ibb.co/bK6xDQG/author-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Jenny Wilson",
+    "desig": "Content Writer @Company",
+    "img": "https://i.ibb.co/PcX8c2s/author-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Leslie Alexander",
+    "desig": "Content Writer @Company",
+    "img": "https://i.ibb.co/RhtY3tL/author-4.png"
+  }
+]

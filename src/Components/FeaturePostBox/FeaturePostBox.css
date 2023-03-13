@@ -1,0 +1,39 @@
+.post_box {
+  padding: 20px;
+  transition: 0.3s;
+  padding-right: 85px;
+}
+.post_box .sm_text {
+  margin-bottom: 10px;
+}
+.post_box a {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  color: #232536;
+}
+.post_box:hover {
+  background: #fbf6ea;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .post_box {
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .post_box {
+    padding-right: 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .post_box {
+    padding: 20px 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .post_box {
+    padding: 10px;
+    margin-top: 20px;
+  }
+}

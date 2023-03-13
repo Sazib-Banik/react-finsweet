@@ -1,0 +1,39 @@
+#login-part {
+  padding: 100px 0;
+}
+#login-part .card {
+  padding: 70px 35px;
+  background-color: #232536;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+#login-part .card h2 {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.form-btn {
+  background: #ffffff;
+  padding: 8px 30px;
+  color: #232536;
+  font-weight: 600;
+  display: inline-block;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background: #ffd050;
+  color: #232536;
+}
+#login-part .card p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+#login-part .card p a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+#login-part .card p a:hover {
+  color: #ffd050;
+  font-weight: 400;
+}

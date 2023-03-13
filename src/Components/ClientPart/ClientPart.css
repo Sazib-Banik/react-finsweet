@@ -1,0 +1,24 @@
+#client_part {
+    padding: 60px 0;
+  }
+  .client_part_text p,
+  .client_part_text h4 {
+    color: #6d6e76;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    #client_part {
+        text-align: center;
+      }
+    
+      .client_logo {
+        margin-top: 15px;
+      }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 575px) {
+    .client_logo {
+        padding: 20px 0;
+      }
+  }

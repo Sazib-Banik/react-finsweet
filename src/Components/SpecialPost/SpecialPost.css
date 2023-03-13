@@ -1,0 +1,80 @@
+#special_post {
+  padding: 60px 0;
+}
+.special_post_box {
+  position: relative;
+}
+.special_post_part {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+  background: #ffffff;
+  width: 700px;
+}
+.special_post_text {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+.special_post_part h1 {
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+.special_post_part p {
+  margin-bottom: 25px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special_post_part {
+    width: 650px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .special_post_box {
+    position: static;
+  }
+
+  .special_post_box img {
+    width: 100%;
+  }
+
+  .special_post_part {
+    position: static;
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .special_post_box {
+    position: static;
+  }
+
+  .special_post_box img {
+    width: 100%;
+  }
+
+  .special_post_part {
+    position: static;
+    width: 100%;
+    padding: 30px 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .special_post_box {
+    position: static;
+  }
+
+  .special_post_box img {
+    width: 100%;
+  }
+
+  .special_post_part {
+    position: static;
+    width: 100%;
+    padding: 30px 10px;
+  }
+}

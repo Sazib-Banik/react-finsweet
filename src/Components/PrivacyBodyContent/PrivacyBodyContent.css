@@ -1,0 +1,51 @@
+.privacy_body_content {
+  padding: 100px 0;
+}
+.blog_part {
+  padding-right: 100px;
+  margin-bottom: 50px;
+}
+.blog_part p {
+  margin-top: 20px;
+}
+.blog_part ul {
+  margin: 10px 0;
+}
+.blog_part ul li {
+  padding: 5px 0;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .blog_part {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog_part {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .blog_part {
+    padding-right: 0px;
+  }
+
+  .blog_part ul li {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+  .blog_part {
+    padding-right: 0px;
+  }
+
+  .blog_part ul li {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
